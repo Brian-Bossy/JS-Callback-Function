@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+  <body>
+    <h1>JavaScript Callback Function Example</h1>
+    <h2>This example uses a setTimeout() with a function </h2>
+    <p>You have to wait for 3 seconds(3000 milliseconds) to see changes on your browser</p>
+    <h1 id="demo"></h1>
+
+    <script>
+      setTimeout(myFunction, 3000);
+
+      function myFunction() {
+        document.getElementById("demo").innerHTML = "My name is Brian, A software dev.";
+      }
+    </script>
+  </body>
+</html>
